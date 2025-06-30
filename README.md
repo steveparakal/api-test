@@ -21,7 +21,12 @@ python train_model.py
 API_KEY=your_secret_key
 ```
 
-### 6. Start the API
+### 6. Run the app
+```
+python run.py
+```
+
+### 7. Start the API
 ````
 uvicorn run:app --reload
 ````
